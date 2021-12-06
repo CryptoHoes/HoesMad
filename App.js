@@ -17,16 +17,15 @@ export default function App() {
   return (
     <View style={{ flex: 1, backgroundColor: '#fc7a85' }}>
 
-       {currentPoints === 0 ?
-      <Text style={{ textAlign: 'center', fontSize: 40, fontWeight: 'bold', margin: 20 }}>You are Hoeless :(</Text>
-    :
-    <Text style={{ textAlign: 'center', fontSize: 10, fontWeight: 'bold', margin: 40 }}>jk</Text>
-    }
+        {currentPoints === 1 ?
+        <Text style={{ textAlign: 'center', fontSize: 40, fontWeight: 'bold', margin: 30 }}>{currentPoints} Hoe</Text>
+        : 
+        <Text style={{ textAlign: 'center', fontSize: 40, fontWeight: 'bold', margin: 30 }}>{currentPoints} Hoes</Text>
+        }
 
-      {currentPoints === 1 ?
-       null
-        : <Text style={{ textAlign: 'center', fontSize: 40, fontWeight: 'bold', margin: 30 }}>{currentPoints} Hoes</Text>
-      }
+      
+
+    
        
         
      
@@ -66,6 +65,11 @@ export default function App() {
           </TouchableOpacity>
 
         </View> : null}
+        {currentPoints === 0 ?
+        <Text style={{ textAlign: 'center', fontSize: 20, fontWeight: 'bold', margin: 20 }}>you have no hoes :(</Text>
+        : 
+        null
+      }
     </View>
   );
 }
