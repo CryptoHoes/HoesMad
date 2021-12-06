@@ -10,6 +10,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "api": "^4.1.1",
     "expo": "~43.0.2",
     "expo-status-bar": "~1.1.0",
     "matter-js": "^0.17.1",
@@ -17,7 +18,9 @@
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
     "react-native-game-engine": "^1.2.0",
+    "react-native-walletconnect": "^0.0.1-alpha.2",
     "react-native-web": "0.17.1",
+    "react-native-webview": "11.13.0",
     "status-bar": "^2.0.3"
   },
   "devDependencies": {
