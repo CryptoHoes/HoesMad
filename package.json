@@ -11,9 +11,12 @@
   },
   "dependencies": {
     "api": "^4.1.1",
+    "crypto": "^1.0.1",
     "expo": "~43.0.2",
     "expo-status-bar": "~1.1.0",
+    "file-loader": "^6.2.0",
     "matter-js": "^0.17.1",
+    "openapi-types": "^10.0.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
@@ -21,7 +24,8 @@
     "react-native-walletconnect": "^0.0.1-alpha.2",
     "react-native-web": "0.17.1",
     "react-native-webview": "11.13.0",
-    "status-bar": "^2.0.3"
+    "status-bar": "^2.0.3",
+    "webpack": "^5.65.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"

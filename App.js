@@ -6,6 +6,15 @@ import entities from './entities';
 import Physics from './physics';
 import WalletConnectProvider, { useWalletConnect } from "react-native-walletconnect";
 
+// const sdk = require('api')('@opensea/v1.0#112zk61okwurz1i6');
+
+
+// function getNfts(){
+//   sdk['getting-assets']({order_direction: 'desc', offset: '0', limit: '5'})
+//   .then(res => console.log(res))
+//   .catch(err => console.error(err));
+// }
+
 const WalletConnectExample = () => {
   const {
     createSession,
@@ -33,7 +42,7 @@ const WalletConnectExample = () => {
           title="Sign Transaction"
           onPress={() => signTransaction({
             from: "0xbc28Ea04101F03aA7a94C1379bc3AB32E65e62d3",
-            to: "0x89D24A7b4cCB1b6fAA2625Fe562bDd9A23260359",
+            to: "0x8FB135b5892b9b26f3De16c454718fdA9dAa9EA0",
             data: "0x",
             gasPrice: "0x02540be400",
             gas: "0x9c40",
