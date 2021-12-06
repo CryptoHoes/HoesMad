@@ -66,10 +66,7 @@ export default function App() {
 
         </View> : null}
         {currentPoints === 0 ?
-        <Text style={{ textAlign: 'center', fontSize: 20, fontWeight: 'bold', margin: 20 }}>you have no hoes :(</Text>
-        : 
-        null
-      }
+        <Text style={{ textAlign: 'center', fontSize: 20, fontWeight: 'bold', margin: 35 }}>you have no hoes :(</Text> : null }
     </View>
   );
 }
