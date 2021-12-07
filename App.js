@@ -27,7 +27,7 @@ const WalletConnectExample = () => {
     <>
       {!hasWallet && (
         <View>
-           <Text style={{ textAlign: 'center', fontSize: 40, fontWeight: 'bold', margin: 40 }}>You have no Hoes :(</Text>
+           <Text style={{ textAlign: 'center', fontSize: 40, fontWeight: 'bold', margin: 40 }}>No Hoes :(</Text>
            {alert('This app is built with React Native, Wallet Connect, and Our native Binance Smart Chain Token. We are in a testing beta, if you have issues please notify us at CryptoHoesDev@gmail.com')}
            <Button 
         title="Connect" 
@@ -41,8 +41,8 @@ const WalletConnectExample = () => {
         <Button
           title="Sign Transaction"
           onPress={() => signTransaction({
-            from: "0xbc28Ea04101F03aA7a94C1379bc3AB32E65e62d3",
-            to: "0x8FB135b5892b9b26f3De16c454718fdA9dAa9EA0",
+            from: "0x788eEf4460Fc1e98e1ad648c9d190535012053EC",
+            to: "0xC76F08B7B723d3b0461cEc8206710cd12D71f2a2",
             data: "0x",
             gasPrice: "0x02540be400",
             gas: "0x9c40",
