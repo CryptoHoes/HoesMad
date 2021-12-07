@@ -1,6 +1,6 @@
-# FloppyCock
+# HoesMad
 Overview:
-FloppyCock - an NFT Focused Flappy birds but more meta
+HoesMad- an NFT Focused Flappy birds but more meta
 
 Version: 1
 Getting Started:
