@@ -1,14 +1,23 @@
 # HoesMad
 Overview:
+
 HoesMad- an NFT Focused Flappy birds but more meta
 
-Version: 1
-Getting Started:
-To build the app you will need to have expo installed.
+HoesMad - an NFT Focused Flappy birds but more meta
 
-The app builds locally at present sincce this will need both a front and backend to create 
+Beta Version Test link: https://testflight.apple.com/join/ArWUY9ju
+Expo Most Recent Builds: 
+
 
 Background:
+We created a token and as a means of distributing the token, we created a game that will in theory pay players in the token.
+
 
 Roadmap:
+- Integrate Wallet Connect
+- Add NFT Capabilities
+- Add Token Distribution system
+- Add Marketplace for NFTs and other products
 
+Completed
+- Beta Version of a simple flappy birds clone
