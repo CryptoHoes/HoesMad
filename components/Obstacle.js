@@ -14,6 +14,7 @@ const Obstacle = props => {
     return (
         <View style={{
             borderWidth: 1,
+            backgroundColor: 'white',
             borderColor: color,
             borderStyle: 'solid',
             position: 'absolute',

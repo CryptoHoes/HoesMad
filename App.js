@@ -4,8 +4,8 @@ import { Text, TouchableOpacity, View, Button, Alert } from 'react-native';
 import { GameEngine } from 'react-native-game-engine';
 import entities from './entities';
 import Physics from './physics';
-import AsyncStorage from "@react-native-async-storage/async-storage";
-// 
+// import AsyncStorage from "@react-native-async-storage/async-storage";
+// import WalletConnectClient from "@walletconnect/client";
 
 
 // const client = await WalletConnectClient.init({
@@ -119,9 +119,11 @@ export default function App() {
         style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}
       >
         <StatusBar style="auto" hidden={true} />
+        
       </GameEngine>
       {!running ?
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+            {currentPoints === 0 ? <Text style={{ textAlign: 'center', fontSize: 20, fontWeight: 'bold', margin: 35 }}>you have no hoes :(</Text> : null }
           <TouchableOpacity style={{ backgroundColor: 'black', paddingHorizontal: 30, paddingVertical: 10 }}
             onPress={() => {
               setCurrentPoints(0)
@@ -131,10 +133,10 @@ export default function App() {
             <Text style={{ fontWeight: 'bold', color: 'white', fontSize: 30 }}>
               START GAME
             </Text>
+            
           </TouchableOpacity>
         </View> : null}
-        {currentPoints === 0 ?
-        <Text style={{ textAlign: 'center', fontSize: 20, fontWeight: 'bold', margin: 35 }}>you have no hoes :(</Text> : null }
+      
         
     </View>
   );
