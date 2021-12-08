@@ -1,5 +1,8 @@
 # HoesMad
 Overview:
+
+HoesMad- an NFT Focused Flappy birds but more meta
+
 HoesMad - an NFT Focused Flappy birds but more meta
 
 Beta Version Test link: https://testflight.apple.com/join/ArWUY9ju
