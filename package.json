@@ -16,6 +16,7 @@
     "@walletconnect/qrcode-modal": "^1.6.6",
     "add": "^2.0.6",
     "api": "^4.1.1",
+    "crypto-js": "3.3.0",
     "expo": "~43.0.2",
     "expo-status-bar": "~1.1.0",
     "file-loader": "^6.2.0",
@@ -32,9 +33,9 @@
     "react-native-webview": "11.13.0",
     "rn-nodeify": "^10.3.0",
     "status-bar": "^2.0.3",
+    "stream": "^0.0.2",
     "webpack": "^5.65.0",
-    "yarn": "^1.22.17",
-    "crypto-js": "3.3.0"
+    "yarn": "^1.22.17"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"

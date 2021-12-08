@@ -1,4 +1,3 @@
-import 'react-native-get-random-values';
 import { StatusBar } from 'expo-status-bar';
 import React, { useState, useEffect } from 'react';
 import { Text, TouchableOpacity, View, Button, Alert } from 'react-native';
@@ -6,22 +5,22 @@ import { GameEngine } from 'react-native-game-engine';
 import entities from './entities';
 import Physics from './physics';
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import WalletConnectClient from "@walletconnect/client";
+// 
 
 
-const client = await WalletConnectClient.init({
-  controller: true,
-  relayProvider: "wss://relay.walletconnect.com",
-  metadata: {
-    name: "Test Wallet",
-    description: "Test Wallet",
-    url: "#",
-    icons: ["https://walletconnect.com/walletconnect-logo.png"],
-  },
-  storageOptions: {
-    asyncStorage: AsyncStorage,
-  },
-});
+// const client = await WalletConnectClient.init({
+//   controller: true,
+//   relayProvider: "wss://relay.walletconnect.com",
+//   metadata: {
+//     name: "Test Wallet",
+//     description: "Test Wallet",
+//     url: "#",
+//     icons: ["https://walletconnect.com/walletconnect-logo.png"],
+//   },
+//   storageOptions: {
+//     asyncStorage: AsyncStorage,
+//   },
+// });
 
 
 // Web3 Tests
