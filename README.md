@@ -1,11 +1,11 @@
 # HoesMad
+REJECTED FROM APP STORE FOR LACK OF FUNCTIONALITY
 Overview:
 
 HoesMad- an NFT Focused Flappy birds but more meta
 
 HoesMad - an NFT Focused Flappy birds but more meta
 
-REJECTED FROM APP STORE FOR LACK OF FUNCTIONALITY:
 Expo Most Recent Builds: https://expo.dev/artifacts/eas/xeGPc3zDLfJZ876bha5rJA.ipa
 
 
